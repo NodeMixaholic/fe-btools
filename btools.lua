@@ -33,7 +33,7 @@ end)
 Tool.Activated:connect(function()
 if Mouse.Target ~= nil then
 local targetPart = Mouse.Target
-local forceArg = Vector3.new(-1000000000000000, -1000000000000000, -1000000000000000)
+local forceArg = Vector3.new(-9000000000, -9000000000, -9000000000)
 local thrust = Instance.new("BodyThrust")
 targetPart.Anchored = false
 thrust.Parent = targetPart
